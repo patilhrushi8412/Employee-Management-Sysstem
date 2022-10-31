@@ -1,0 +1,56 @@
+2022-10-18 23:13:51 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 6924 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-18 23:13:51 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-18 23:13:51 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 23:13:51 [restartedMain] INFO  : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+2022-10-18 23:13:52 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-18 23:13:52 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-18 23:13:52 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-18 23:13:52 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 23:13:52 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-18 23:13:52 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 842 ms
+2022-10-18 23:13:52 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 23:13:52 [restartedMain] INFO  : HikariPool-4 - Starting...
+2022-10-18 23:13:52 [restartedMain] INFO  : HikariPool-4 - Start completed.
+2022-10-18 23:13:52 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-18 23:13:52 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 23:13:52 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 23:13:52 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 23:13:52 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-10-18 23:13:52 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-9090"]
+2022-10-18 23:13:53 [restartedMain] INFO  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-18 23:13:53 [restartedMain] INFO  : Started EmsApplication in 1.814 seconds (JVM running for 352.629)
+2022-10-18 23:13:53 [restartedMain] INFO  : Condition evaluation unchanged
+2022-10-18 23:14:05 [http-nio-9090-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-18 23:14:05 [http-nio-9090-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2022-10-18 23:14:05 [http-nio-9090-exec-2] INFO  : Completed initialization in 1 ms
+2022-10-18 23:14:05 [http-nio-9090-exec-2] ERROR : Fatal Error
+2022-10-18 23:32:11 [HikariPool-4 housekeeper] WARN  : HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=4m18s887ms794µs400ns).
+2022-10-18 23:40:57 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 6960 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-18 23:40:57 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-18 23:40:57 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-18 23:40:57 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-18 23:40:58 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-18 23:40:58 [restartedMain] INFO  : Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interfaces.
+2022-10-18 23:40:59 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-18 23:40:59 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-18 23:40:59 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-18 23:40:59 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-18 23:41:00 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-18 23:41:00 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2386 ms
+2022-10-18 23:41:00 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-18 23:41:00 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-18 23:41:01 [restartedMain] INFO  : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-18 23:41:01 [restartedMain] INFO  : HikariPool-1 - Starting...
+2022-10-18 23:41:02 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2022-10-18 23:41:02 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-18 23:41:03 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-18 23:41:03 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-18 23:41:04 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-18 23:41:04 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-10-18 23:41:04 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-9090"]
+2022-10-18 23:41:04 [restartedMain] INFO  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-18 23:41:04 [restartedMain] INFO  : Started EmsApplication in 7.804 seconds (JVM running for 10.01)
+2022-10-18 23:41:09 [http-nio-9090-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-18 23:41:09 [http-nio-9090-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2022-10-18 23:41:09 [http-nio-9090-exec-2] INFO  : Completed initialization in 1 ms
+2022-10-18 23:41:09 [http-nio-9090-exec-2] ERROR : Fatal Error

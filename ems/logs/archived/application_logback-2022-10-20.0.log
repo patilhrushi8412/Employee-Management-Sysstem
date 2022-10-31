@@ -1,0 +1,615 @@
+2022-10-20 10:00:57 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 11988 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-20 10:00:57 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:00:57 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-20 10:00:57 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-20 10:00:59 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:00:59 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:00:59 [restartedMain] INFO  : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.te.ems.mongodbRepo.Extradata; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2022-10-20 10:00:59 [restartedMain] INFO  : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2022-10-20 10:00:59 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:00:59 [restartedMain] INFO  : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-20 10:00:59 [restartedMain] INFO  : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.te.ems.dao.Reposetory; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2022-10-20 10:00:59 [restartedMain] INFO  : Finished Spring Data repository scanning in 13 ms. Found 1 MongoDB repository interfaces.
+2022-10-20 10:01:01 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-20 10:01:01 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:01:01 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-20 10:01:01 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:01:01 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:01:01 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 3278 ms
+2022-10-20 10:01:01 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:01:01 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-20 10:01:01 [restartedMain] INFO  : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-20 10:01:01 [restartedMain] INFO  : HikariPool-1 - Starting...
+2022-10-20 10:01:02 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2022-10-20 10:01:02 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 10:01:03 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:01:03 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:01:04 [restartedMain] INFO  : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.4.1+1"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@401b47fc]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-20 10:01:04 [cluster-ClusterId{value='6350cf088303da038bd33799', description='null'}-localhost:27017] INFO  : Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:180)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:193)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:157)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 4 common frames omitted
+2022-10-20 10:01:04 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-10-20 10:01:05 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-20 10:01:06 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:01:06 [restartedMain] INFO  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-20 10:01:07 [restartedMain] INFO  : Started EmsApplication in 10.092 seconds (JVM running for 17.655)
+2022-10-20 10:06:11 [http-nio-9090-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-20 10:06:11 [http-nio-9090-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2022-10-20 10:06:11 [http-nio-9090-exec-1] INFO  : Completed initialization in 7 ms
+2022-10-20 10:06:11 [http-nio-9090-exec-1] INFO  : Adding Employee
+2022-10-20 10:06:11 [http-nio-9090-exec-1] WARN  : Enter Data Carefully
+2022-10-20 10:06:12 [http-nio-9090-exec-1] INFO  : Cluster description not yet available. Waiting for 30000 ms before timing out
+2022-10-20 10:06:42 [http-nio-9090-exec-1] ERROR : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: no further information}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: no further information}}]] with root cause
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: no further information}}]
+	at com.mongodb.internal.connection.BaseCluster.getDescription(BaseCluster.java:180)
+	at com.mongodb.internal.connection.SingleServerCluster.getDescription(SingleServerCluster.java:44)
+	at com.mongodb.client.internal.MongoClientDelegate.getConnectedClusterDescription(MongoClientDelegate.java:144)
+	at com.mongodb.client.internal.MongoClientDelegate.createClientSession(MongoClientDelegate.java:101)
+	at com.mongodb.client.internal.MongoClientDelegate$DelegateOperationExecutor.getClientSession(MongoClientDelegate.java:291)
+	at com.mongodb.client.internal.MongoClientDelegate$DelegateOperationExecutor.execute(MongoClientDelegate.java:207)
+	at com.mongodb.client.internal.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:1010)
+	at com.mongodb.client.internal.MongoCollectionImpl.executeReplaceOne(MongoCollectionImpl.java:568)
+	at com.mongodb.client.internal.MongoCollectionImpl.replaceOne(MongoCollectionImpl.java:551)
+	at org.springframework.data.mongodb.core.MongoTemplate.lambda$saveDocument$17(MongoTemplate.java:1632)
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:598)
+	at org.springframework.data.mongodb.core.MongoTemplate.saveDocument(MongoTemplate.java:1598)
+	at org.springframework.data.mongodb.core.MongoTemplate.doSave(MongoTemplate.java:1530)
+	at org.springframework.data.mongodb.core.MongoTemplate.save(MongoTemplate.java:1473)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.save(SimpleMongoRepository.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy4/jdk.proxy4.$Proxy123.save(Unknown Source)
+	at com.te.ems.services.Serviceimplementation.addemployee(Serviceimplementation.java:41)
+	at com.te.ems.controller.EmployeeController.addEmployee(EmployeeController.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-20 10:08:02 [RMI TCP Connection(9)-127.0.0.1] INFO  : Application shutdown requested.
+2022-10-20 10:08:02 [RMI TCP Connection(9)-127.0.0.1] INFO  : Pausing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:08:02 [RMI TCP Connection(9)-127.0.0.1] INFO  : Stopping service [Tomcat]
+2022-10-20 10:08:02 [RMI TCP Connection(9)-127.0.0.1] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-20 10:08:02 [RMI TCP Connection(9)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:08:02 [RMI TCP Connection(9)-127.0.0.1] INFO  : Destroying ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:08:02 [RMI TCP Connection(9)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:08:02 [RMI TCP Connection(9)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-20 10:08:02 [RMI TCP Connection(9)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.
+2022-10-20 10:10:43 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 6480 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-20 10:10:43 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:10:43 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-20 10:10:43 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-20 10:10:45 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:10:45 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:10:45 [restartedMain] INFO  : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.te.ems.mongodbRepo.Extradata; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2022-10-20 10:10:45 [restartedMain] INFO  : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2022-10-20 10:10:45 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:10:45 [restartedMain] INFO  : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-20 10:10:45 [restartedMain] INFO  : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.te.ems.dao.Reposetory; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2022-10-20 10:10:45 [restartedMain] INFO  : Finished Spring Data repository scanning in 22 ms. Found 1 MongoDB repository interfaces.
+2022-10-20 10:10:46 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-20 10:10:46 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:10:46 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-20 10:10:46 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:10:46 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:10:46 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2531 ms
+2022-10-20 10:10:46 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:10:46 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-20 10:10:46 [restartedMain] INFO  : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-20 10:10:46 [restartedMain] INFO  : HikariPool-1 - Starting...
+2022-10-20 10:10:47 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2022-10-20 10:10:47 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 10:10:48 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:10:48 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:10:49 [restartedMain] INFO  : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.4.1+1"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@6e0d27a3]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-20 10:10:49 [cluster-rtt-ClusterId{value='6350d1511eb9f462031f369b', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:1, serverValue:15}] to localhost:27017
+2022-10-20 10:10:49 [cluster-ClusterId{value='6350d1511eb9f462031f369b', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:2, serverValue:16}] to localhost:27017
+2022-10-20 10:10:49 [cluster-ClusterId{value='6350d1511eb9f462031f369b', description='null'}-localhost:27017] INFO  : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=92645800}
+2022-10-20 10:10:49 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-10-20 10:10:50 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-20 10:10:51 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:10:51 [restartedMain] INFO  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-20 10:10:51 [restartedMain] INFO  : Started EmsApplication in 8.166 seconds (JVM running for 9.763)
+2022-10-20 10:10:57 [http-nio-9090-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-20 10:10:57 [http-nio-9090-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2022-10-20 10:10:57 [http-nio-9090-exec-2] INFO  : Completed initialization in 7 ms
+2022-10-20 10:10:57 [http-nio-9090-exec-2] INFO  : Adding Employee
+2022-10-20 10:10:57 [http-nio-9090-exec-2] WARN  : Enter Data Carefully
+2022-10-20 10:10:58 [http-nio-9090-exec-2] INFO  : Opened connection [connectionId{localValue:3, serverValue:17}] to localhost:27017
+2022-10-20 10:10:58 [http-nio-9090-exec-2] INFO  : Employee Inserted Succesfully
+2022-10-20 10:11:05 [http-nio-9090-exec-2] INFO  : Mail Sent Succesfully
+2022-10-20 10:16:49 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-20 10:16:49 [Thread-4] INFO  : Pausing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:16:49 [Thread-4] INFO  : Stopping service [Tomcat]
+2022-10-20 10:16:49 [Thread-4] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-20 10:16:49 [Thread-4] INFO  : Stopping ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:16:49 [Thread-4] INFO  : Destroying ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:16:49 [Thread-4] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:16:49 [Thread-4] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-20 10:16:49 [Thread-4] INFO  : HikariPool-1 - Shutdown completed.
+2022-10-20 10:16:49 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 6480 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-20 10:16:49 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:16:49 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:16:49 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:16:49 [restartedMain] INFO  : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.te.ems.mongodbRepo.Extradata; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2022-10-20 10:16:49 [restartedMain] INFO  : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2022-10-20 10:16:49 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:16:49 [restartedMain] INFO  : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-20 10:16:49 [restartedMain] INFO  : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.te.ems.dao.Reposetory; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2022-10-20 10:16:49 [restartedMain] INFO  : Finished Spring Data repository scanning in 10 ms. Found 1 MongoDB repository interfaces.
+2022-10-20 10:16:49 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-20 10:16:49 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:16:49 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-20 10:16:49 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:16:49 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:16:49 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 472 ms
+2022-10-20 10:16:50 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:16:50 [restartedMain] INFO  : HikariPool-2 - Starting...
+2022-10-20 10:16:50 [restartedMain] INFO  : HikariPool-2 - Start completed.
+2022-10-20 10:16:50 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 10:16:50 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:16:50 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:16:50 [restartedMain] INFO  : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.4.1+1"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@6e0d27a3]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-20 10:16:50 [cluster-rtt-ClusterId{value='6350d2ba1eb9f462031f369c', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:5, serverValue:19}] to localhost:27017
+2022-10-20 10:16:50 [cluster-ClusterId{value='6350d2ba1eb9f462031f369c', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:4, serverValue:18}] to localhost:27017
+2022-10-20 10:16:50 [cluster-ClusterId{value='6350d2ba1eb9f462031f369c', description='null'}-localhost:27017] INFO  : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8149000}
+2022-10-20 10:16:50 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-10-20 10:16:50 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-20 10:16:50 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:16:50 [restartedMain] INFO  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-20 10:16:50 [restartedMain] INFO  : Started EmsApplication in 1.299 seconds (JVM running for 369.278)
+2022-10-20 10:16:50 [restartedMain] INFO  : Condition evaluation unchanged
+2022-10-20 10:19:45 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-20 10:19:45 [Thread-7] INFO  : Pausing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:19:45 [Thread-7] INFO  : Stopping service [Tomcat]
+2022-10-20 10:19:45 [Thread-7] INFO  : Stopping ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:19:45 [Thread-7] INFO  : Destroying ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:19:45 [Thread-7] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:19:45 [Thread-7] INFO  : HikariPool-2 - Shutdown initiated...
+2022-10-20 10:19:45 [Thread-7] INFO  : HikariPool-2 - Shutdown completed.
+2022-10-20 10:19:45 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 6480 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-20 10:19:45 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:19:46 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:19:46 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:19:46 [restartedMain] INFO  : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.te.ems.mongodbRepo.Extradata; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2022-10-20 10:19:46 [restartedMain] INFO  : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2022-10-20 10:19:46 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:19:46 [restartedMain] INFO  : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-20 10:19:46 [restartedMain] INFO  : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.te.ems.dao.Reposetory; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2022-10-20 10:19:46 [restartedMain] INFO  : Finished Spring Data repository scanning in 8 ms. Found 1 MongoDB repository interfaces.
+2022-10-20 10:19:46 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-20 10:19:46 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:19:46 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-20 10:19:46 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:19:46 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:19:46 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 410 ms
+2022-10-20 10:19:46 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:19:46 [restartedMain] INFO  : HikariPool-3 - Starting...
+2022-10-20 10:19:46 [restartedMain] INFO  : HikariPool-3 - Start completed.
+2022-10-20 10:19:46 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 10:19:46 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:19:46 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:19:46 [restartedMain] WARN  : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'services'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceimplementation': Unsatisfied dependency expressed through field 'wrapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.te.ems.wrapper.Wrapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-10-20 10:19:46 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:19:46 [restartedMain] INFO  : HikariPool-3 - Shutdown initiated...
+2022-10-20 10:19:46 [restartedMain] INFO  : HikariPool-3 - Shutdown completed.
+2022-10-20 10:19:46 [restartedMain] INFO  : Stopping service [Tomcat]
+2022-10-20 10:19:46 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-20 10:19:46 [restartedMain] ERROR : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field wrapper in com.te.ems.services.Serviceimplementation required a bean of type 'com.te.ems.wrapper.Wrapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.te.ems.wrapper.Wrapper' in your configuration.
+
+2022-10-20 10:20:02 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 6480 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-20 10:20:02 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:20:02 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:20:02 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:20:02 [restartedMain] INFO  : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.te.ems.mongodbRepo.Extradata; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2022-10-20 10:20:02 [restartedMain] INFO  : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2022-10-20 10:20:02 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:20:02 [restartedMain] INFO  : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-20 10:20:02 [restartedMain] INFO  : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.te.ems.dao.Reposetory; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2022-10-20 10:20:02 [restartedMain] INFO  : Finished Spring Data repository scanning in 8 ms. Found 1 MongoDB repository interfaces.
+2022-10-20 10:20:03 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-20 10:20:03 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:20:03 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-20 10:20:03 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:20:03 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:20:03 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 389 ms
+2022-10-20 10:20:03 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:20:03 [restartedMain] INFO  : HikariPool-4 - Starting...
+2022-10-20 10:20:03 [restartedMain] INFO  : HikariPool-4 - Start completed.
+2022-10-20 10:20:03 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 10:20:03 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:20:03 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:20:03 [restartedMain] WARN  : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'services'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceimplementation': Unsatisfied dependency expressed through field 'wrapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.te.ems.wrapper.Wrapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-10-20 10:20:03 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:20:03 [restartedMain] INFO  : HikariPool-4 - Shutdown initiated...
+2022-10-20 10:20:03 [restartedMain] INFO  : HikariPool-4 - Shutdown completed.
+2022-10-20 10:20:03 [restartedMain] INFO  : Stopping service [Tomcat]
+2022-10-20 10:20:03 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-20 10:20:03 [restartedMain] ERROR : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field wrapper in com.te.ems.services.Serviceimplementation required a bean of type 'com.te.ems.wrapper.Wrapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.te.ems.wrapper.Wrapper' in your configuration.
+
+2022-10-20 10:20:20 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 6480 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-20 10:20:20 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:20:20 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:20:20 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:20:20 [restartedMain] INFO  : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.te.ems.mongodbRepo.Extradata; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2022-10-20 10:20:20 [restartedMain] INFO  : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2022-10-20 10:20:20 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:20:20 [restartedMain] INFO  : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-20 10:20:20 [restartedMain] INFO  : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.te.ems.dao.Reposetory; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2022-10-20 10:20:20 [restartedMain] INFO  : Finished Spring Data repository scanning in 9 ms. Found 1 MongoDB repository interfaces.
+2022-10-20 10:20:20 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-20 10:20:20 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:20:20 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-20 10:20:20 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:20:20 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:20:20 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 535 ms
+2022-10-20 10:20:20 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:20:20 [restartedMain] INFO  : HikariPool-5 - Starting...
+2022-10-20 10:20:20 [restartedMain] INFO  : HikariPool-5 - Start completed.
+2022-10-20 10:20:20 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 10:20:20 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:20:20 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:20:20 [restartedMain] WARN  : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'services'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serviceimplementation': Unsatisfied dependency expressed through field 'wrapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.te.ems.wrapper.Wrapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-10-20 10:20:20 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:20:20 [restartedMain] INFO  : HikariPool-5 - Shutdown initiated...
+2022-10-20 10:20:20 [restartedMain] INFO  : HikariPool-5 - Shutdown completed.
+2022-10-20 10:20:20 [restartedMain] INFO  : Stopping service [Tomcat]
+2022-10-20 10:20:20 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-20 10:20:20 [restartedMain] ERROR : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field wrapper in com.te.ems.services.Serviceimplementation required a bean of type 'com.te.ems.wrapper.Wrapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.te.ems.wrapper.Wrapper' in your configuration.
+
+2022-10-20 10:21:12 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 3292 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-20 10:21:12 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:21:12 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-20 10:21:12 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-20 10:21:13 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:21:13 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:21:13 [restartedMain] INFO  : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.te.ems.mongodbRepo.Extradata; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2022-10-20 10:21:13 [restartedMain] INFO  : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2022-10-20 10:21:14 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:21:14 [restartedMain] INFO  : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-20 10:21:14 [restartedMain] INFO  : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.te.ems.dao.Reposetory; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2022-10-20 10:21:14 [restartedMain] INFO  : Finished Spring Data repository scanning in 12 ms. Found 1 MongoDB repository interfaces.
+2022-10-20 10:21:14 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-20 10:21:14 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:21:14 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-20 10:21:14 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:21:14 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:21:14 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2056 ms
+2022-10-20 10:21:15 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:21:15 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-20 10:21:15 [restartedMain] INFO  : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-20 10:21:15 [restartedMain] INFO  : HikariPool-1 - Starting...
+2022-10-20 10:21:16 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2022-10-20 10:21:16 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 10:21:17 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:21:17 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:21:17 [restartedMain] INFO  : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.4.1+1"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@6aaa6491]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-20 10:21:17 [cluster-rtt-ClusterId{value='6350d3c5de313e3f0e78b920', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:2, serverValue:20}] to localhost:27017
+2022-10-20 10:21:17 [cluster-ClusterId{value='6350d3c5de313e3f0e78b920', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:1, serverValue:21}] to localhost:27017
+2022-10-20 10:21:17 [cluster-ClusterId{value='6350d3c5de313e3f0e78b920', description='null'}-localhost:27017] INFO  : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=31270900}
+2022-10-20 10:21:17 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-10-20 10:21:18 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-20 10:21:19 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:21:19 [restartedMain] INFO  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-20 10:21:19 [restartedMain] INFO  : Started EmsApplication in 6.929 seconds (JVM running for 8.54)
+2022-10-20 10:23:10 [http-nio-9090-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-20 10:23:10 [http-nio-9090-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2022-10-20 10:23:10 [http-nio-9090-exec-1] INFO  : Completed initialization in 1 ms
+2022-10-20 10:23:10 [http-nio-9090-exec-1] INFO  : Getting Employee Details
+2022-10-20 10:23:10 [http-nio-9090-exec-1] WARN  : Enter Valid ID
+2022-10-20 10:23:10 [http-nio-9090-exec-1] INFO  : Opened connection [connectionId{localValue:3, serverValue:22}] to localhost:27017
+2022-10-20 10:23:10 [http-nio-9090-exec-1] INFO  : Getting Employee Succesfully
+2022-10-20 10:24:54 [RMI TCP Connection(7)-127.0.0.1] INFO  : Application shutdown requested.
+2022-10-20 10:24:54 [RMI TCP Connection(7)-127.0.0.1] INFO  : Pausing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:24:54 [RMI TCP Connection(7)-127.0.0.1] INFO  : Stopping service [Tomcat]
+2022-10-20 10:24:54 [RMI TCP Connection(7)-127.0.0.1] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-20 10:24:54 [RMI TCP Connection(7)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:24:54 [RMI TCP Connection(7)-127.0.0.1] INFO  : Destroying ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:24:54 [RMI TCP Connection(7)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:24:54 [RMI TCP Connection(7)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-20 10:24:54 [RMI TCP Connection(7)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.
+2022-10-20 10:30:33 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 15208 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-20 10:30:33 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:30:33 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-20 10:30:33 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-20 10:30:35 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:30:35 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:30:35 [restartedMain] INFO  : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.te.ems.mongodbRepo.Extradata; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2022-10-20 10:30:35 [restartedMain] INFO  : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2022-10-20 10:30:35 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:30:35 [restartedMain] INFO  : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-20 10:30:35 [restartedMain] INFO  : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.te.ems.dao.Reposetory; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2022-10-20 10:30:35 [restartedMain] INFO  : Finished Spring Data repository scanning in 12 ms. Found 1 MongoDB repository interfaces.
+2022-10-20 10:30:36 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-20 10:30:36 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:30:36 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-20 10:30:36 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:30:36 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:30:36 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2830 ms
+2022-10-20 10:30:36 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:30:37 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-20 10:30:37 [restartedMain] INFO  : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-20 10:30:37 [restartedMain] INFO  : HikariPool-1 - Starting...
+2022-10-20 10:30:37 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2022-10-20 10:30:37 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 10:30:38 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:30:38 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:30:39 [restartedMain] INFO  : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.4.1+1"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@21c7eeee]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-20 10:30:39 [cluster-rtt-ClusterId{value='6350d5f634287824dfa86af5', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:1, serverValue:24}] to localhost:27017
+2022-10-20 10:30:39 [cluster-ClusterId{value='6350d5f634287824dfa86af5', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:2, serverValue:23}] to localhost:27017
+2022-10-20 10:30:39 [cluster-ClusterId{value='6350d5f634287824dfa86af5', description='null'}-localhost:27017] INFO  : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=26471900}
+2022-10-20 10:30:39 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-10-20 10:30:39 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-20 10:30:40 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:30:40 [restartedMain] INFO  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-20 10:30:40 [restartedMain] INFO  : Started EmsApplication in 7.361 seconds (JVM running for 9.127)
+2022-10-20 10:30:45 [http-nio-9090-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-20 10:30:45 [http-nio-9090-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2022-10-20 10:30:45 [http-nio-9090-exec-2] INFO  : Completed initialization in 2 ms
+2022-10-20 10:30:45 [http-nio-9090-exec-2] INFO  : Getting Employee Details
+2022-10-20 10:30:45 [http-nio-9090-exec-2] WARN  : Enter Valid ID
+2022-10-20 10:30:45 [http-nio-9090-exec-2] INFO  : Opened connection [connectionId{localValue:3, serverValue:25}] to localhost:27017
+2022-10-20 10:30:45 [http-nio-9090-exec-2] INFO  : Getting Employee Succesfully
+2022-10-20 10:30:56 [http-nio-9090-exec-3] INFO  : Delete Employee Details
+2022-10-20 10:30:56 [http-nio-9090-exec-3] WARN  : Enter Valid ID
+2022-10-20 10:30:57 [http-nio-9090-exec-3] INFO  : Employee Deleted Successfully
+2022-10-20 10:34:15 [File Watcher] INFO  : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2022-10-20 10:34:15 [Thread-4] INFO  : Pausing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:34:15 [Thread-4] INFO  : Stopping service [Tomcat]
+2022-10-20 10:34:15 [Thread-4] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-20 10:34:15 [Thread-4] INFO  : Stopping ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:34:15 [Thread-4] INFO  : Destroying ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:34:15 [Thread-4] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:34:15 [Thread-4] INFO  : HikariPool-1 - Shutdown initiated...
+2022-10-20 10:34:15 [Thread-4] INFO  : HikariPool-1 - Shutdown completed.
+2022-10-20 10:34:15 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 15208 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-20 10:34:15 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:34:15 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:34:15 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:34:15 [restartedMain] INFO  : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.te.ems.mongodbRepo.Extradata; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2022-10-20 10:34:15 [restartedMain] INFO  : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-10-20 10:34:15 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:34:15 [restartedMain] INFO  : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-20 10:34:15 [restartedMain] INFO  : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.te.ems.dao.Reposetory; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2022-10-20 10:34:15 [restartedMain] INFO  : Finished Spring Data repository scanning in 26 ms. Found 1 MongoDB repository interfaces.
+2022-10-20 10:34:15 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-20 10:34:15 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:34:15 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-20 10:34:15 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:34:15 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:34:15 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 516 ms
+2022-10-20 10:34:15 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:34:15 [restartedMain] INFO  : HikariPool-2 - Starting...
+2022-10-20 10:34:15 [restartedMain] INFO  : HikariPool-2 - Start completed.
+2022-10-20 10:34:15 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 10:34:16 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:34:16 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:34:16 [restartedMain] INFO  : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.4.1+1"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@21c7eeee]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-20 10:34:16 [cluster-rtt-ClusterId{value='6350d6d034287824dfa86af6', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:5, serverValue:26}] to localhost:27017
+2022-10-20 10:34:16 [cluster-ClusterId{value='6350d6d034287824dfa86af6', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:4, serverValue:27}] to localhost:27017
+2022-10-20 10:34:16 [cluster-ClusterId{value='6350d6d034287824dfa86af6', description='null'}-localhost:27017] INFO  : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3726500}
+2022-10-20 10:34:16 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-10-20 10:34:16 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-20 10:34:16 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:34:16 [restartedMain] INFO  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-20 10:34:16 [restartedMain] INFO  : Started EmsApplication in 1.26 seconds (JVM running for 225.088)
+2022-10-20 10:34:16 [restartedMain] INFO  : Condition evaluation unchanged
+2022-10-20 10:39:17 [File Watcher] INFO  : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2022-10-20 10:39:17 [Thread-7] INFO  : Pausing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:39:17 [Thread-7] INFO  : Stopping service [Tomcat]
+2022-10-20 10:39:17 [Thread-7] INFO  : Stopping ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:39:17 [Thread-7] INFO  : Destroying ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:39:17 [Thread-7] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:39:17 [Thread-7] INFO  : HikariPool-2 - Shutdown initiated...
+2022-10-20 10:39:17 [Thread-7] INFO  : HikariPool-2 - Shutdown completed.
+2022-10-20 10:39:17 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 15208 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-20 10:39:17 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:39:18 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:39:18 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:39:18 [restartedMain] INFO  : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.te.ems.mongodbRepo.Extradata; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2022-10-20 10:39:18 [restartedMain] INFO  : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2022-10-20 10:39:18 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:39:18 [restartedMain] INFO  : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-20 10:39:18 [restartedMain] INFO  : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.te.ems.dao.Reposetory; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2022-10-20 10:39:18 [restartedMain] INFO  : Finished Spring Data repository scanning in 11 ms. Found 1 MongoDB repository interfaces.
+2022-10-20 10:39:18 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-20 10:39:18 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:39:18 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-20 10:39:18 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:39:18 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:39:18 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 398 ms
+2022-10-20 10:39:18 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:39:18 [restartedMain] INFO  : HikariPool-3 - Starting...
+2022-10-20 10:39:18 [restartedMain] INFO  : HikariPool-3 - Start completed.
+2022-10-20 10:39:18 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 10:39:18 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:39:18 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:39:18 [restartedMain] INFO  : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.4.1+1"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@21c7eeee]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-20 10:39:18 [cluster-ClusterId{value='6350d7fe34287824dfa86af7', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:6, serverValue:28}] to localhost:27017
+2022-10-20 10:39:18 [cluster-ClusterId{value='6350d7fe34287824dfa86af7', description='null'}-localhost:27017] INFO  : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2210800}
+2022-10-20 10:39:18 [cluster-rtt-ClusterId{value='6350d7fe34287824dfa86af7', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:7, serverValue:29}] to localhost:27017
+2022-10-20 10:39:18 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-10-20 10:39:18 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-20 10:39:19 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:39:19 [restartedMain] INFO  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-20 10:39:19 [restartedMain] INFO  : Started EmsApplication in 1.301 seconds (JVM running for 527.626)
+2022-10-20 10:39:19 [restartedMain] INFO  : Condition evaluation unchanged
+2022-10-20 10:39:25 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-20 10:39:25 [Thread-11] INFO  : Pausing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:39:25 [Thread-11] INFO  : Stopping service [Tomcat]
+2022-10-20 10:39:25 [Thread-11] INFO  : Stopping ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:39:25 [Thread-11] INFO  : Destroying ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:39:25 [Thread-11] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:39:25 [Thread-11] INFO  : HikariPool-3 - Shutdown initiated...
+2022-10-20 10:39:25 [Thread-11] INFO  : HikariPool-3 - Shutdown completed.
+2022-10-20 10:39:25 [restartedMain] INFO  : Starting EmsApplication using Java 17.0.4.1 on rushi with PID 15208 (C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems\target\classes started by Rushikesh in C:\Users\Rushikesh\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\ems.zip_expanded.zip_expanded.zip_expanded\ems.zip_expanded.zip_expanded\ems.zip_expanded\ems)
+2022-10-20 10:39:25 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:39:26 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:39:26 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:39:26 [restartedMain] INFO  : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.te.ems.mongodbRepo.Extradata; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2022-10-20 10:39:26 [restartedMain] INFO  : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2022-10-20 10:39:26 [restartedMain] INFO  : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-20 10:39:26 [restartedMain] INFO  : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-20 10:39:26 [restartedMain] INFO  : Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.te.ems.dao.Reposetory; If you want this repository to be a MongoDB repository, consider annotating your entities with one of these annotations: org.springframework.data.mongodb.core.mapping.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.mongodb.repository.MongoRepository
+2022-10-20 10:39:26 [restartedMain] INFO  : Finished Spring Data repository scanning in 12 ms. Found 1 MongoDB repository interfaces.
+2022-10-20 10:39:26 [restartedMain] INFO  : Tomcat initialized with port(s): 9090 (http)
+2022-10-20 10:39:26 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:39:26 [restartedMain] INFO  : Starting service [Tomcat]
+2022-10-20 10:39:26 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:39:26 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:39:26 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 442 ms
+2022-10-20 10:39:26 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:39:26 [restartedMain] INFO  : HikariPool-4 - Starting...
+2022-10-20 10:39:26 [restartedMain] INFO  : HikariPool-4 - Start completed.
+2022-10-20 10:39:26 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-20 10:39:26 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:39:26 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:39:26 [restartedMain] INFO  : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.4.1+1"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@21c7eeee]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-20 10:39:26 [cluster-rtt-ClusterId{value='6350d80634287824dfa86af8', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:9, serverValue:30}] to localhost:27017
+2022-10-20 10:39:26 [cluster-ClusterId{value='6350d80634287824dfa86af8', description='null'}-localhost:27017] INFO  : Opened connection [connectionId{localValue:8, serverValue:31}] to localhost:27017
+2022-10-20 10:39:26 [cluster-ClusterId{value='6350d80634287824dfa86af8', description='null'}-localhost:27017] INFO  : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3303700}
+2022-10-20 10:39:26 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-10-20 10:39:26 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-20 10:39:27 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:39:27 [restartedMain] INFO  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-20 10:39:27 [restartedMain] INFO  : Started EmsApplication in 1.205 seconds (JVM running for 535.652)
+2022-10-20 10:39:27 [restartedMain] INFO  : Condition evaluation unchanged
+2022-10-20 10:48:01 [RMI TCP Connection(21)-127.0.0.1] INFO  : Application shutdown requested.
+2022-10-20 10:48:01 [RMI TCP Connection(21)-127.0.0.1] INFO  : Pausing ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:48:01 [RMI TCP Connection(21)-127.0.0.1] INFO  : Stopping service [Tomcat]
+2022-10-20 10:48:01 [RMI TCP Connection(21)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:48:01 [RMI TCP Connection(21)-127.0.0.1] INFO  : Destroying ProtocolHandler ["http-nio-9090"]
+2022-10-20 10:48:01 [RMI TCP Connection(21)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:48:01 [RMI TCP Connection(21)-127.0.0.1] INFO  : HikariPool-4 - Shutdown initiated...
+2022-10-20 10:48:01 [RMI TCP Connection(21)-127.0.0.1] INFO  : HikariPool-4 - Shutdown completed.
